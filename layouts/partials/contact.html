@@ -1,0 +1,79 @@
+<div class="container" id="contact">
+
+    <div class="row">
+        <div class="col-md-8">
+
+            <section>
+			
+                {{ .Content }}
+				
+                {{ if isset .Site.Params.contact "email" }}
+				
+				</br>
+				
+                <div class="heading-contact-form">
+                  <h3>Contact Form</h3>
+                </div>
+				
+				</br>
+				
+                <div id="contact-message"></div>
+
+                <form class="contact-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="name">Your Name</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">Your Message</label>
+                                <textarea id="message" class="form-control" name="message" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 text-center">
+                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Send</button>
+
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </form>
+
+                {{ end }}
+
+            </section>
+
+        </div>
+
+        <div class="col-md-4">
+
+            {{ if isset .Site.Params.contact "address" }}
+            <section>
+
+              <h3 class="text-uppercase">Address</h3>
+
+                {{ .Site.Params.contact.address | safeHTML }}
+
+            </section>
+
+            {{ end }}
+
+        </div>
+		
+    </div>
+    <!-- /.row -->
+	
+	</br>
+	{{ partial "map.html" . }}
+</div>
+
+

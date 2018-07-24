@@ -1,0 +1,160 @@
+baseurl = ""
+languageCode = "en"
+title = "John Grace Suits"
+theme = "vex-hugo"
+publishDir = "docs"
+
+[params]
+  description = ""
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = ["css/custom.css"]
+  custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"]
+
+  # Additional meta
+  [[params.meta]]
+    name = ""
+    description = ""
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "John Grace Suits"
+	link = ""
+    [[params.navbar.menu]]
+      link = ""
+      text = "HOME"
+    #[[params.navbar.menu]]
+     # link = "/services"
+     # text = "SERVICES"
+    [[params.navbar.menu]]
+      link = "/contact"
+      text = "CONTACT"
+	[[params.navbar.menu]]
+      link = "/faq"
+      text = "FAQ"
+  # Header
+  [params.header]
+    title = "Believe in Technology, Make the Change"
+    text = "John Grace Suits specializes in making suits that fit you. Through a combination of 3-D imaging, Artificial Intelligence, and our world-class tailors, we will make you the last suit you will ever need."
+    [params.header.image]
+      path = "images/3-D model.png"
+      alt = "3-D model"
+    [params.header.button]
+      link = "/contact"
+      text = "Reserve your consultation now"
+
+  # Features
+  [params.features]
+    title = "Our Core Philosophy"
+    [params.features.image]
+      path = "images/suit.png"
+      alt = "Suit"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Smooth Touch"
+      text = "We come to your home in private appointments, saving you time."
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Elegant Design"
+      text = "In 20 minutes, we are able to take over 120 distinct measurements, making your suit fit you exactly."
+    [[params.features.left]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Our team works quickly and efficiently, leading to much a much lower suit cost, without alterations."
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Smooth Touch"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Elegant Design"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+  [params.promo]
+    title = "Designed by professionals, the best for any modern gentleman."
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    [params.promo.image]
+      path = "images/suit-2.png"
+      alt = "Suit"
+
+  [params.feature_list]
+    title = "The Three Steps to a John Grace Suit"
+    [[params.feature_list.items]]
+      image = "images/planning.jpg"
+	  alt = "planning"
+      title = "Planning"
+      text = "The first part of the process starts with planning, and choosing your type of suit. Our tailors help you decide which fabric, cut, and style would fit you the best, and we make a working model for your suit."
+      button_link = "/faq"
+      button_text = "Learn More"
+    [[params.feature_list.items]]
+      image = "images/3-D print.jpg"
+	  alt = "3-D print"
+      title = "Measurement and 3-D Printing"
+      text = "Our tailors then take your measurements with a 3-D camera, a process which takes less than 20 minutes. We then print the 3-D model in order to be able to fit your suit perfectly. This whole process takes less than two days, much faster than it would in shop."
+      button_link = "/faq"
+      button_text = "Learn More"
+	[[params.feature_list.items]]
+      image = "images/Rack of Suits.png"
+	  alt = "Rack of Suits"
+      title = "Delivery and Repeteable Measurements"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      button_link = "/faq"
+      button_text = "Learn More"
+
+  [params.gallery]
+    title = "Check Out Some Amazing Suits"
+    # Set the image directory to use as base
+    directory = "images/showcase"
+    # Set the images to show in the gallery
+    images = ["showcase-1.jpg", "showcase-2.jpg", "showcase-3.jpg", "showcase-4.jpg", "showcase-5.jpg", "showcase-6.jpg", "showcase-7.jpg", "showcase-8.jpg"]
+
+  [params.call_to_action]
+    title = "Get Product Updates"
+    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    placeholder = "Your Email Address Here"
+    button_text = "Subscribe"
+
+  [params.testimonials]
+    title = "Suit Reviews"
+    [[params.testimonials.blocks]]
+      text = "PLACEHOLDER lots and lots of PLACEHOLDER"
+      name = "Placeholder Smith"
+      position = "Placeholder, Placeholder Inc"
+      image = "images/avatar.png"
+    [[params.testimonials.blocks]]
+      text = "PLACEHOLDER lots and lots of PLACEHOLDER"
+      name = "Placeholder Smith"
+      position = "Placeholder, Placeholder Inc"
+      image = "images/avatar.png"
+    [[params.testimonials.blocks]]
+      text = "PLACEHOLDER lots and lots of PLACEHOLDER"
+      name = "Placeholder Smith"
+      position = "Placeholder, Placeholder Inc"
+      image = "images/avatar.png"
+    [params.testimonials.button]
+      link = "/contact"
+      text = "Get Your Suit Now"
+	  
+
+  [params.contact]
+	email = "your@email.com"
+	address = """<p><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
+        <br>
+        <strong>Great Britain</strong>
+      </p>
+      """
+	latitude = "-12.043333"
+    longitude = "-77.028333"
+	googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+
+  # Footer uses navbar data
