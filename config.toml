@@ -34,7 +34,7 @@ publishDir = "docs"
       text = "FAQ"
   # Header
   [params.header]
-    title = "Believe in Technology, Make the Change"
+    title = "Believe in CHANGE, Make the Change"
     text = "John Grace Suits specializes in making suits that fit you. Through a combination of 3-D imaging, Artificial Intelligence, and our world-class tailors, we will make you the last suit you will ever need."
     [params.header.image]
       path = "images/3-D model.png"
