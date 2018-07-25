@@ -102,7 +102,7 @@ publishDir = "docs"
 	[[params.feature_list.items]]
       image = "images/Rack of Suits.png"
 	  alt = "Rack of Suits"
-      title = "Delivery and Repeteable Measurements"
+      title = "Delivery and Repeatable Measurements"
       text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
       button_link = "/faq"
       button_text = "Learn More"
