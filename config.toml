@@ -47,7 +47,7 @@ publishDir = "docs"
   [params.features]
     title = "Our Core Philosophy"
     [params.features.image]
-      path = "images/suit.png"
+      path = "images/suit.jpg"
       alt = "Suit"
     # Menu at the left of the image
     [[params.features.left]]
@@ -127,16 +127,19 @@ publishDir = "docs"
       name = "Placeholder Smith"
       position = "Placeholder, Placeholder Inc"
       image = "images/avatar.png"
+	  alt = "Placeholder Smith"
     [[params.testimonials.blocks]]
       text = "PLACEHOLDER lots and lots of PLACEHOLDER"
       name = "Placeholder Smith"
       position = "Placeholder, Placeholder Inc"
       image = "images/avatar.png"
+	  alt = "Placeholder Smith"
     [[params.testimonials.blocks]]
       text = "PLACEHOLDER lots and lots of PLACEHOLDER"
       name = "Placeholder Smith"
       position = "Placeholder, Placeholder Inc"
       image = "images/avatar.png"
+	  alt = "Placeholder Smith"
     [params.testimonials.button]
       link = "/contact"
       text = "Get Your Suit Now"
