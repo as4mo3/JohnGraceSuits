@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://as4mo3.github.io/JohnGraceSuits/"
 languageCode = "en"
 title = "John Grace Suits"
 theme = "vex-hugo"
