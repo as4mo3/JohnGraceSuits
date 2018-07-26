@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-
-  {{ partial "head.html" . }}
+  
+  {{ partial "stylesheets.html" . }}
 
   <body>
 
@@ -9,58 +9,38 @@
 
         <header>
 
-          {{ partial "nav.html" . }}
+          {{ partial "navbar.html" . }}
 
         </header>
-
-        {{ partial "breadcrumbs.html" . }}
+		
+		{{ partial "breadcrumbs.html" . }}
 
         <div id="content">
+            {{ if isset .Params "id" }}
+
+              {{ partial .Params.id . }}
+
+            {{ else }}
+
             <div class="container">
 
                 <div class="row">
 
-                    <!-- *** LEFT COLUMN *** -->
+                    <div class="col-md-12">
 
-                    <div class="col-md-9" id="blog-post">
-
-                        <p class="text-muted text-uppercase mb-small text-right">{{ if .Params.author }}{{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a> | {{ end }}{{ .Date.Format .Site.Params.date_format }}</p>
-
-                        <div id="post-content">
+                        <div>
                           {{ .Content }}
                         </div>
-                        <!-- /#post-content -->
-                        {{ if .Site.DisqusShortname }}
-                        <div id="comments">
-                            {{ template "_internal/disqus.html" . }}
-                        </div>
-                        {{ end }}
 
                     </div>
-                    <!-- /#blog-post -->
-
-                    <!-- *** LEFT COLUMN END *** -->
-
-                    <!-- *** RIGHT COLUMN *** -->
-
-                    <div class="col-md-3">
-
-                        <!-- *** MENUS AND WIDGETS *** -->
-
-                        {{ partial "sidebar.html" . }}
-
-                        <!-- *** MENUS AND FILTERS END *** -->
-
-                    </div>
-                    <!-- /.col-md-3 -->
-
-                    <!-- *** RIGHT COLUMN END *** -->
 
                 </div>
                 <!-- /.row -->
 
             </div>
             <!-- /.container -->
+
+            {{ end }}
         </div>
         <!-- /#content -->
 

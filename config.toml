@@ -8,7 +8,7 @@ publishDir = "docs"
   description = ""
 
   # Put your custom stylesheets and scripts
-  custom_stylesheets = ["css/custom.css"]
+  custom_stylesheets = ["css/custom.css", "css/blog.css"]
   custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"]
 
   # Additional meta
@@ -35,6 +35,11 @@ publishDir = "docs"
 	[[params.navbar.menu]]
       link = "/faq"
       text = "FAQ"
+	[[params.navbar.menu]]
+		link = "/blog"
+		text = "BLOG"
+		
+	
   # Header
   [params.header]
     title = "Believe in Change, Make the Change"
@@ -167,6 +172,17 @@ publishDir = "docs"
 		[[params.f1.images]]
 			image = "images/f1-showcase2.webp"
 			alt = "F1 Showcase 2"
+			
+	[params.blog]
+		date_format = "January 2, 2006"
+	
+	[params.widgets]
+		categories = true
+		tags = true
+		search = false
+	
+	[Permalinks]
+		blog = "/blog/:year/:month/:day/:filename/"
 
   [params.contact]
 	email = "your@email.com"
