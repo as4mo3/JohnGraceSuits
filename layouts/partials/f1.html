@@ -1,0 +1,51 @@
+<div class="container" id="f1">
+
+	<div class="heading-f1 text-center">
+	
+		<div class="h2">
+		
+			{{ .Site.Params.f1.title }}
+		
+		</div>
+	</div>
+	<div class="container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div>
+					{{ .Content }} 
+				</div>
+			</div>
+		</div>
+		
+		<img src="{{ .Site.Params.f1.image | relURL }}" alt="{{ .Site.Params.f1.alt }}">
+		</img>
+			
+		
+		
+	</div>
+		
+	<div class="content-mt-100 text-center">
+		</br>
+		<a href="{{ .Site.Params.f1.link | relURL }}" class="btn btn-main btn-main-sm">{{ .Site.Params.f1.button_text }}</a>
+		</br>
+	</div>
+		
+	<div class="container">
+		
+		
+          <div class="row">
+		  {{ range $index, $element := .Site.Params.f1.images }}
+            {{- if ne (mod $index 2) 1 }}
+			<div class="col-md-6 text-center">
+              <img class="img-fill img-pad" src=" {{ $element.image | relURL }}" alt="{{ $element.alt }}">
+            </div>
+			{{- else }}
+			<div class="col-md-6 text-center">
+              <img class="img-fill img-pad" src="{{ $element.image | relURL }}" alt="{{ $element.alt }}">
+            </div>
+			{{- end }} {{- end}}
+          </div>
+        
+	</div>
+		
+</div>

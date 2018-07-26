@@ -26,6 +26,9 @@ publishDir = "docs"
     #[[params.navbar.menu]]
      # link = "/services"
      # text = "SERVICES"
+	[[params.navbar.menu]]
+      link = "/f1"
+      text = "F1 DRIVER'S SHOW"
     [[params.navbar.menu]]
       link = "/contact"
       text = "CONTACT"
@@ -144,6 +147,26 @@ publishDir = "docs"
       link = "/contact"
       text = "Get Your Suit Now"
 	  
+	
+	[params.f1]
+		title = "Singapore F1 Grand Prix & John Grace"
+		image = "images/F1BW.webp"
+		alt = "F1 Show"
+		button_text = "Buy Your Own Suit"
+		link = "/contact"
+		
+		[[params.f1.images]]
+			image = "images/f1-showcase1.webp"
+			alt = "F1 Showcase 1"
+		[[params.f1.images]]
+			image = "images/f1-showcase4.webp"
+			alt = "F1 Showcase 4"
+		[[params.f1.images]]
+			image = "images/f1-showcase3.webp"
+			alt = "F1 Showcase 3"		
+		[[params.f1.images]]
+			image = "images/f1-showcase2.webp"
+			alt = "F1 Showcase 2"
 
   [params.contact]
 	email = "your@email.com"
