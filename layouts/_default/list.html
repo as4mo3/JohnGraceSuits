@@ -56,7 +56,7 @@
                                         </p>
                                     </div>
                                     <p class="intro">{{ .Summary }}</p>
-                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">Continue Reading</a>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn-blog btn-template-main-blog">Continue Reading</a>
                                     </p>
                                 </div>
                             </div>
@@ -65,15 +65,15 @@
 
                         <ul class="pager">
                             {{ if .Paginator.HasPrev }}
-                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; newer</a></li>
                             {{ else }}
-                            <li class="previous disabled"><a href="#">&larr; {{ i18n "newer" }}</a></li>
+                            <li class="previous disabled"><a href="#">&larr; newer</a></li>
                             {{ end }}
 
                             {{ if .Paginator.HasNext }}
-                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">{{ i18n "older" }} &rarr;</a></li>
+                            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">older &rarr;</a></li>
                             {{ else }}
-                            <li class="next disabled"><a href="#">{{ i18n "older" }} &rarr;</a></li>
+                            <li class="next disabled"><a href="#">older &rarr;</a></li>
                             {{ end }}
                         </ul>
                     </div>

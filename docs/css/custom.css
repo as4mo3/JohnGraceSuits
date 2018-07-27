@@ -68,3 +68,20 @@ img {
 	margin-top: 10px;
     box-shadow: 2px 4px 20px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.5);
 }
+
+.btn-blog {
+  font-weight: 700;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 6px 12px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  border-radius: 0;
+}
+
+.btn-template-main-blog {
+  color: #38a7bb;
+  background-color: #ffffff;
+  border-color: #38a7bb;
+}

@@ -66,7 +66,7 @@ googleAnalytics = "UA-122955127-1"
       text = "Using only the finest Italian fabrics, the premium lustre of a John Grace will last you a lifetime. "
     [[params.features.left]]
       icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
+      title = "Fast Action"
       text = "We come to the comfort of your home for private appointments, saving you time."
     # Menu at the right of the image
     [[params.features.right]]

@@ -4,19 +4,15 @@ description = "Frequently Asked Questions"
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+These frequently asked questions provide more information about how we make suits. 
 
 <br/>
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+## 1. WHAT SHOULD I DO IF I HAVE STILL NOT RECEIVED THE ORDER?
 
 <br/>
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+Make sure you have the correct tracking number. If you do, orders may simply be delayed due to customs, needing to order more fabric, or any other of a multitude of reasons. You may contact us to help you resolve this issue, but we normally send an email notification of any delays.
 
 <br/>
 
@@ -24,7 +20,12 @@ Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac tu
 
 <br/>
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+The postal rates vary by country. We will inform you of the shipping costs when you are choosing your suit.
+
+* USA = $20
+* RUS = $20
+* Singapore = $20
+* etc etc etc
 
 <br/>
 
@@ -32,7 +33,7 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 
 <br/>
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+We do send overseas! When you choose your suit, our tailors will tell you approximately how much your suit would cost to ship to your country.
 
 <br/>
 
@@ -40,11 +41,11 @@ Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richa
 
 <br/>
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Our method eliminates the need for any alterations, which takes more time and money. In fact, we are so confident that you will not have to have your suit altered that we will refund you $100 of the cost of your suit if you do! Just send us the reciept from where you altered your suit, and we will refund you the $100 credit.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* Shorter make time
+* No need for alterations
+* Quick and accurate measurements
 
 <br/>
 
