@@ -43,7 +43,7 @@ publishDir = "docs"
   # Header
   [params.header]
     title = "Believe in Change, Make the Change"
-    text = "John Grace Suits specializes in making suits that fit you. Through a combination of 3-D imaging, Artificial Intelligence, and our world-class tailors, we will make you the last suit you will ever need."
+    text = "John Grace Suits specializes in making suits that fit you. Through a combination of 3-D imaging, Artificial Intelligence, and our world-class tailors, we will make you the best suit you ever had."
     [params.header.image]
       path = "images/3-D model.png"
       alt = "3-D model"
@@ -61,11 +61,11 @@ publishDir = "docs"
     [[params.features.left]]
       icon = "tf-ion-ios-alarm-outline"
       title = "Smooth Touch"
-      text = "We come to your home in private appointments, saving you time."
+      text = "We come to the comfort of your home for private appointments, saving you time."
     [[params.features.left]]
       icon = "tf-ion-ios-bell-outline"
       title = "Elegant Design"
-      text = "In 20 minutes, we are able to take over 120 distinct measurements, making your suit fit you exactly."
+      text = "In 20 minutes, we take over 120 distinct measurements, including a 3-D scan, making your suit fit you exactly."
     [[params.features.left]]
       icon = "tf-ion-ios-cart-outline"
       title = "Easy Pricing"
@@ -97,26 +97,26 @@ publishDir = "docs"
       image = "images/planning.jpg"
 	  alt = "planning"
       title = "Planning"
-      text = "The first part of the process starts with planning, and choosing your type of suit. Our tailors help you decide which fabric, cut, and style would fit you the best, and we make a working model for your suit."
+      text = "The first part of the process starts with planning, and choosing your type of suit. Our fashion consultants help you decide which fabric, cut, and style would fit you the best, and we make a working model for your suit."
       button_link = "/faq"
       button_text = "Learn More"
     [[params.feature_list.items]]
       image = "images/3-D print.jpg"
 	  alt = "3-D print"
       title = "Measurement and 3-D Printing"
-      text = "Our tailors then take your measurements with a 3-D camera, a process which takes less than 20 minutes. We then print the 3-D model in order to be able to fit your suit perfectly. This whole process takes less than two days, much faster than it would in shop."
+      text = "Our tailors then take your measurements with a 3-D camera, a process which takes less than 20 minutes. We then print the 3-D model in order to be able to fit your suit perfectly. This whole process takes less than two days, much faster than a traditional approach."
       button_link = "/faq"
       button_text = "Learn More"
 	[[params.feature_list.items]]
       image = "images/Rack of Suits.png"
 	  alt = "Rack of Suits"
-      title = "Delivery and Repeatable Measurements"
+      title = "Delivery and Precise Measurements"
       text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
       button_link = "/faq"
       button_text = "Learn More"
 
   [params.gallery]
-    title = "Check Out Some Amazing Suits"
+    title = "Check Out Our Amazing Suits"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
@@ -154,10 +154,10 @@ publishDir = "docs"
 	  
 	
 	[params.f1]
-		title = "Singapore F1 Grand Prix & John Grace"
+		title = "Singapore F1 Grand Prix Dressed by John Grace"
 		image = "images/F1BW.webp"
 		alt = "F1 Show"
-		button_text = "Buy Your Own Suit"
+		button_text = "Order Your Own Suit Now"
 		link = "/contact"
 		
 		[[params.f1.images]]

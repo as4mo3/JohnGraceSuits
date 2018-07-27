@@ -11,6 +11,13 @@ img {
 	min-height: 100%;
 }
 
+.img-third {
+	max-width: 33%;
+    max-height: 33%;
+	min-width: 33%;
+	min-height: 33%;
+}
+
 #heading-breadcrumbs {
   background: url('../images/texture-bw.png') center center repeat;
   padding: 20px 0;
