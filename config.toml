@@ -42,11 +42,11 @@ publishDir = "docs"
 	
   # Header
   [params.header]
-    title = "Believe in Change, Make the Change"
+    title = "Believe in Technology, Make the Change"
     text = "John Grace Suits specializes in making suits that fit you. Through a combination of 3-D imaging, Artificial Intelligence, and our world-class tailors, we will make you the best suit you ever had."
     [params.header.image]
-      path = "images/3-D model.png"
-      alt = "3-D model"
+      path = "images/suit-1.jpg"
+      alt = "Suit banner"
     [params.header.button]
       link = "/contact"
       text = "Reserve your consultation now"
@@ -59,34 +59,26 @@ publishDir = "docs"
       alt = "Suit"
     # Menu at the left of the image
     [[params.features.left]]
+      icon = "tf-ion-bowtie"
+      title = "Quality"
+      text = "Using only the finest Italian fabrics, the premium lustre of a John Grace will last you a lifetime. "
+    [[params.features.left]]
       icon = "tf-ion-ios-alarm-outline"
       title = "Smooth Touch"
       text = "We come to the comfort of your home for private appointments, saving you time."
-    [[params.features.left]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "In 20 minutes, we take over 120 distinct measurements, including a 3-D scan, making your suit fit you exactly."
-    [[params.features.left]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Our team works quickly and efficiently, leading to much a much lower suit cost, without alterations."
     # Menu at the right of the image
     [[params.features.right]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.right]]
       icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      title = "Perfect Fit"
+      text = "In 20 minutes, we take over 120 distinct measurements, including a 3-D scan, making your suit fit you exactly."
     [[params.features.right]]
       icon = "tf-ion-ios-cart-outline"
       title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+      text = "Our team works quickly and efficiently, leading to much a much lower suit cost, without the need for any alterations."
 
   [params.promo]
-    title = "Designed by professionals, the best for any modern gentleman."
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+    title = "John Grace suit's are stylish, contemporary and cut to perfection."  
+    text = "Over the course of our years of experience, we have learned how to make the suit that fits YOU. Therefore, John Grace Suits is the best option for the modern gentleman, with our contemporary tailoring perfect for both men and women."
     [params.promo.image]
       path = "images/suit-2.png"
       alt = "Suit"
@@ -111,7 +103,7 @@ publishDir = "docs"
       image = "images/Rack of Suits.png"
 	  alt = "Rack of Suits"
       title = "Delivery and Precise Measurements"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+      text = "Over the course of two weeks, we finish your suit and ship it off to you. Furthermore, if you choose to order more suits, we will not have to take any new measurements because we already have the 3-D model of your body."
       button_link = "/faq"
       button_text = "Learn More"
 
@@ -120,11 +112,11 @@ publishDir = "docs"
     # Set the image directory to use as base
     directory = "images/showcase"
     # Set the images to show in the gallery
-    images = ["showcase-1.jpg", "showcase-2.jpg", "showcase-3.jpg", "showcase-4.jpg", "showcase-5.jpg", "showcase-6.jpg", "showcase-7.jpg", "showcase-8.jpg"]
+    images = ["showcase-1.png", "showcase-2.jpg", "showcase-3.jpg", "showcase-4.jpg", "showcase-5.jpg", "showcase-6.jpg", "showcase-7.png", "showcase-8.png"]
 
   [params.call_to_action]
-    title = "Get Product Updates"
-    text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+    title = "Get Suit Updates"
+    text = "Stay up to date"
     placeholder = "Your Email Address Here"
     button_text = "Subscribe"
 
@@ -159,7 +151,6 @@ publishDir = "docs"
 		alt = "F1 Show"
 		button_text = "Order Your Own Suit Now"
 		link = "/contact"
-		
 		[[params.f1.images]]
 			image = "images/f1-showcase1.webp"
 			alt = "F1 Showcase 1"
@@ -185,7 +176,7 @@ publishDir = "docs"
 		blog = "/blog/:year/:month/:day/:filename/"
 
   [params.contact]
-	email = "your@email.com"
+	email = "tosha7y@gmail.com"
 	address = """<p><strong>Universal Ltd.</strong>
         <br>13/25 New Avenue
         <br>Newtown upon River
