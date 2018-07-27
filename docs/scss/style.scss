@@ -3,7 +3,7 @@ $primary-font: 'Josefin Sans', sans-serif;
 
 $secondary-font: 'Droid Serif', serif;
 
-$icon-font: 'themefisher-font' !important;
+$icon-font: 'themefisher-fonts' !important;
 
 
 
@@ -210,7 +210,7 @@ img {
   position: relative;
     font-family:$icon-font;
   &:before {
-    content: "\f3bd";
+    content: "\f3c0";
     position: absolute;
     top: 50%;
     left: 50%;

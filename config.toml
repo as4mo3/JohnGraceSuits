@@ -4,6 +4,8 @@ title = "John Grace Suits"
 theme = "vex-hugo"
 publishDir = "docs"
 
+googleAnalytics = "UA-122955127-1"
+
 [params]
   description = ""
 
