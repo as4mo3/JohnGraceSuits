@@ -1,4 +1,5 @@
     {{- with .Site.Params.navbar }}
+    <section class="navbar">
     <div class="container">
       <nav class="navbar navigation" id="top-nav">
         <a class="navbar-brand logo" href="{{ .link | relURL }}">
@@ -19,4 +20,5 @@
         </div>
       </nav>
     </div>
+    </section>
     {{- end }}

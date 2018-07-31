@@ -40,8 +40,8 @@ googleAnalytics = "UA-122955127-1"
 	[[params.navbar.menu]]
 		link = "/blog"
 		text = "BLOG"
-		
-	
+
+
   # Header
   [params.header]
     title = "Believe in Technology, Make the Change"
@@ -79,8 +79,8 @@ googleAnalytics = "UA-122955127-1"
       text = "Our team works quickly and efficiently, leading to much a much lower suit cost, without the need for any alterations."
 
   [params.promo]
-    title = "John Grace suit's are stylish, contemporary and cut to perfection."  
-    text = "Over the course of our years of experience, we have learned how to make the suit that fits YOU. Therefore, John Grace Suits is the best option for the modern gentleman, with our contemporary tailoring perfect for both men and women."
+    title = "John Grace suits are stylish, contemporary and cut to perfection."
+    text = "Over the course of our years of experience, we have learned how to make the suit that fits YOU. Therefore, John Grace Suits is the best option for the modern gentleman, with our contemporary tailoring perfect for both anyone, anywhere."
     [params.promo.image]
       path = "images/suit-2.png"
       alt = "Suit"
@@ -145,8 +145,8 @@ googleAnalytics = "UA-122955127-1"
     [params.testimonials.button]
       link = "/contact"
       text = "Get Your Suit Now"
-	  
-	
+
+
 	[params.f1]
 		title = "Singapore F1 Grand Prix Dressed by John Grace"
 		image = "images/F1BW.webp"
@@ -161,19 +161,19 @@ googleAnalytics = "UA-122955127-1"
 			alt = "F1 Showcase 4"
 		[[params.f1.images]]
 			image = "images/f1-showcase3.webp"
-			alt = "F1 Showcase 3"		
+			alt = "F1 Showcase 3"
 		[[params.f1.images]]
 			image = "images/f1-showcase2.webp"
 			alt = "F1 Showcase 2"
-			
+
 	[params.blog]
 		date_format = "January 2, 2006"
-	
+
 	[params.widgets]
 		categories = true
 		tags = true
 		search = false
-	
+
 	[Permalinks]
 		blog = "/blog/:year/:month/:day/:filename/"
 
