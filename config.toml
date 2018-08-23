@@ -10,8 +10,8 @@ googleAnalytics = "UA-122955127-1"
   description = ""
 
   # Put your custom stylesheets and scripts
-  custom_stylesheets = ["css/custom.css", "css/blog.css"]
-  custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"]
+  custom_stylesheets = ["css/custom.css", "css/blog.css", "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"]
+  custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js", "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js", "//code.jquery.com/jquery-1.10.2.js", "//code.jquery.com/ui/1.11.4/jquery-ui.js"]
 
   # Additional meta
   [[params.meta]]
@@ -31,6 +31,9 @@ googleAnalytics = "UA-122955127-1"
 	[[params.navbar.menu]]
       link = "/f1"
       text = "F1 DRIVER'S SHOW"
+  [[params.navbar.menu]]
+    link = "/product"
+    text = "SUITS"
     [[params.navbar.menu]]
       link = "/contact"
       text = "CONTACT"
@@ -165,6 +168,34 @@ googleAnalytics = "UA-122955127-1"
 		[[params.f1.images]]
 			image = "images/f1-showcase2.webp"
 			alt = "F1 Showcase 2"
+
+    [params.suits]
+    title = "Suits"
+    [[params.suits.suitImages]]
+      image = "images/showcase/showcase-1.png"
+      alt = "Suit"
+    [[params.suits.suitImages]]
+      image = "images/showcase/showcase-2.jpg"
+      alt = "Suit"
+    [[params.suits.suitImages]]
+      image = "images/showcase/showcase-3.jpg"
+      alt = "Suit"
+    [[params.suits.suitImages]]
+      image = "images/showcase/showcase-4.jpg"
+      alt = "Suit"
+    [[params.suits.fittingLining]]
+      image = "images/showcase/showcase-1.png"
+      alt = "Suit"
+    [[params.suits.fittingLining]]
+      image = "images/showcase/showcase-2.jpg"
+      alt = "Suit"
+    [[params.suits.fittingLining]]
+      image = "images/showcase/showcase-3.jpg"
+      alt = "Suit"
+    [[params.suits.fittingLining]]
+      image = "images/showcase/showcase-4.jpg"
+      alt = "Suit"
+
 
 	[params.blog]
 		date_format = "January 2, 2006"
