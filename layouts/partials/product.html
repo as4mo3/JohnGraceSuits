@@ -52,15 +52,44 @@
       <!-- One "tab" for each step in the form: -->
       <div class="tab">
         <h2>List 1</h2>
-        <div class="selectable" id="pants">
-          {{ range $index, $element := .Site.Params.suits.fittingLining }}
-          <img id="{{$index}}" class="productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
-          {{ end }}
+        <div class="selectable" id="suitFitting">
+					{{ range $index, $element := .Site.Params.suits.fittingLining }}
+					<div class="small-container">
+          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<p>{{$element.text}}</p>
+					</div>
+					{{ end }}
+					<div class="row">
+						<div class="container">
+							<div class="caption">
+								<p>testing</p>
+							</div>
+						</div>
+					</div>
         </div>
-        <div class="selectable" id="shirts">
-          {{ range $index, $element := .Site.Params.suits.fittingLining }}
-          <img id="{{$index}}" class="productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
-          {{ end }}
+        <div class="selectable" id="construction">
+					{{ range $index, $element := .Site.Params.suits.fittingLining }}
+					<div class="small-container">
+          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<p>{{$element.text}}</p>
+					</div>
+					{{ end }}
+        </div>
+				<div class="selectable" id="lining">
+					{{ range $index, $element := .Site.Params.suits.fittingLining }}
+					<div class="small-container">
+          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<p>{{$element.text}}</p>
+					</div>
+					{{ end }}
+        </div>
+				<div class="selectable" id="liningColor">
+					{{ range $index, $element := .Site.Params.suits.fittingLining }}
+					<div class="small-container">
+          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<p>{{$element.text}}</p>
+					</div>
+					{{ end }}
         </div>
         <!-- <p><input placeholder="First name..." oninput="this.className = ''"></p>
         <p><input placeholder="Last name..." oninput="this.className = ''"></p> -->
@@ -68,10 +97,13 @@
 
       <div class="tab">
         <h2>List 2</h2>
-        <div class="selectable" id="pants">
-          {{ range $index, $element := .Site.Params.suits.fittingLining }}
-          <img id="{{$index}}" class="productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
-          {{ end }}
+        <div class="selectable" id="pockets">
+					{{ range $index, $element := .Site.Params.suits.fittingLining }}
+					<div class="small-container">
+          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<p>{{$element.text}}</p>
+					</div>
+					{{ end }}
         </div>
       </div>
 
@@ -106,17 +138,16 @@
 
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 
 // Get the modal
 var modal = document.getElementById('productModal');
 
-// Get the button that opens the modal
-var btns = document.querySelectorAll('.pack.suits');
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+
+// Get the button that opens the modal
+var btns = document.querySelectorAll('.pack.suits');
 
 // When the user clicks on the button, open the modal
 [].forEach.call(btns, function(el) {
@@ -125,14 +156,6 @@ var span = document.getElementsByClassName("close")[0];
       $(this).addClass("img-selected").siblings().removeClass("img-selected");
   }
 })
-
-function removeSelectedClass() {
-  // this function removes the img-selected class, used on modal close
-  var x = document.getElementsByClassName('img-selected');
-  for (var i = 0; i < x.length; i++) {
-    $(x[i]).removeClass("img-selected");
-  }
-}
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -155,6 +178,14 @@ $(document).keydown(function(event) {
     removeSelectedClass();
   }
 });
+
+function removeSelectedClass() {
+  // this function removes the img-selected class, used on modal close
+  var x = document.getElementsByClassName('img-selected');
+  for (var i = 0; i < x.length; i++) {
+    $(x[i]).removeClass("img-selected");
+  }
+}
 
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
@@ -221,12 +252,17 @@ function validateForm() {
 
 function validateImages() {
   // This function makes it mandatory to select at least one image
-  var x, y, valid = true;
-  x = document.getElementsByClassName('ui-selected');
-  y = x[currentTab].getElementsByTagName("input");
-  if (x[currentTab] == null) {
+  var x, y, z, valid = true;
+  x = document.getElementsByClassName('tab');
+	x = x[currentTab].getElementsByClassName('ui-selected');
+	// y = document.getElementsByClassName('tab')
+	// y = x[currentTab].getElementsByTagName("input");
+	z = document.getElementsByClassName('tab');
+	z = z[currentTab].children;
+  // y = x.getElementsByClassName("image");
+  if (x.length != (z.length - 1)) {
     // add an "invalid" class to the field:
-    y[i].className += " invalid";
+    // y[i].className += " invalid";
     // and set the current valid status to false:
     valid = false;
   }
@@ -253,14 +289,46 @@ $(function() {
     if ($(this).hasClass("ui-selected")) {
       var x = document.getElementsByClassName('ui-selected');
       var y = document.getElementsByClassName('img-selected');
-      var z = x[0].parentElement.id;
-      console.log("z " + z);
       y = y[0].id.toString().split(' ')[1];
-      productSelectedList[0] = y;
-      productSelectedList[currentTab + 1] = x[currentTab].id;
+      productSelectedList["suit"] = parseInt(y);
+			for (var i = 0; i < x.length; i++) {
+				productSelectedList[x[i].parentElement.parentElement.id] = parseInt(x[i].id);
+			}
       console.log("List");
       console.log(productSelectedList);
+			textSwitcher();
+			console.log(currentTab);
     };
   });
 });
+
+function textSwitcher() {
+	// this function switches the text inside of caption divs based on which image clicked on
+	var x, y;
+	x = document.getElementsByClassName('tab');
+	y = x[currentTab].getElementsByClassName('ui-selected');
+	switch (y.length > 0) {
+		case currentTab = 0:
+			switch (y.length > 0) {
+				case y.id = 0:
+					y[0].nextSibling.innerHTML = "testing1";
+					break;
+				default:
+
+			}
+			break;
+		case currentTab = 1:
+
+			break;
+		case currentTab = 2:
+
+			break;
+		case currentTab = 3:
+
+			break;
+		default:
+
+	}
+}
+
 </script>

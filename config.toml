@@ -11,7 +11,7 @@ googleAnalytics = "UA-122955127-1"
 
   # Put your custom stylesheets and scripts
   custom_stylesheets = ["css/custom.css", "css/blog.css", "//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"]
-  custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js", "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js", "//code.jquery.com/jquery-1.10.2.js", "//code.jquery.com/ui/1.11.4/jquery-ui.js"]
+  custom_scripts = ["https://unpkg.com/ionicons@4.2.4/dist/ionicons.js", "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js", "//code.jquery.com/jquery-1.10.2.js", "//code.jquery.com/ui/1.11.4/jquery-ui.js", "/js/modal.js", "/js/modalTabs.js", "/js/formValidation.js"]
 
   # Additional meta
   [[params.meta]]
@@ -186,15 +186,19 @@ googleAnalytics = "UA-122955127-1"
     [[params.suits.fittingLining]]
       image = "images/showcase/showcase-1.png"
       alt = "Suit"
+      text = "placeholder caption text 1"
     [[params.suits.fittingLining]]
       image = "images/showcase/showcase-2.jpg"
       alt = "Suit"
+      text = "placeholder caption text 2"
     [[params.suits.fittingLining]]
       image = "images/showcase/showcase-3.jpg"
       alt = "Suit"
+      text = "placeholder caption text 3"
     [[params.suits.fittingLining]]
       image = "images/showcase/showcase-4.jpg"
       alt = "Suit"
+      text = "placeholder caption text 4"
 
 
 	[params.blog]

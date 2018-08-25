@@ -176,6 +176,11 @@ img {
 }
 
 .productList {
-	height: 200px;
-	width: 200px;
+	height: 120px;
+	width: 120px;
+}
+
+/* container take up min space  */
+.small-container {
+	display: inline-block;
 }
