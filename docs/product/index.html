@@ -191,9 +191,7 @@ if (!doNotTrack) {
 					
 					<div class="row">
 						<div class="container">
-							<div class="caption">
-								<p>testing</p>
-							</div>
+								<p class="caption">testing</p>
 						</div>
 					</div>
         </div>
@@ -219,6 +217,11 @@ if (!doNotTrack) {
 						<p>placeholder caption text 4</p>
 					</div>
 					
+					<div class="row">
+						<div class="container">
+								<p class="caption">testing</p>
+						</div>
+					</div>
         </div>
 				<div class="selectable" id="lining">
 					
@@ -242,6 +245,11 @@ if (!doNotTrack) {
 						<p>placeholder caption text 4</p>
 					</div>
 					
+					<div class="row">
+						<div class="container">
+								<p class="caption">testing</p>
+						</div>
+					</div>
         </div>
 				<div class="selectable" id="liningColor">
 					
@@ -265,6 +273,11 @@ if (!doNotTrack) {
 						<p>placeholder caption text 4</p>
 					</div>
 					
+					<div class="row">
+						<div class="container">
+								<p class="caption">testing</p>
+						</div>
+					</div>
         </div>
         
       </div>
@@ -473,13 +486,6 @@ function fixStepIndicator(n) {
 $(function() {
   var productSelectedList = {};
   $(".selectable img").click(function() {
-		
-		
-		
-		
-		
-    
-		
 		var x, y;
 		x = $(this)[0].parentNode.parentNode;
 		y = $(x).find(".ui-selected");
@@ -497,40 +503,62 @@ $(function() {
 			}
       console.log("List");
       console.log(productSelectedList);
-			
+			textSwitcher();
 			console.log("currentTab " + currentTab);
     };
   });
 });
 
 
+function textSwitcher() {
+	
+	var x, y, z = [];
+	x = document.getElementsByClassName('tab');
+	y = x[currentTab].getElementsByClassName('ui-selected');
+	for (var i = 0; i < y.length; i++) {
+		z[i] = y[i].parentNode.parentNode;
+	}
+	console.log("z");
+	console.log(z);
+	console.log("y[0].id");
+	console.log(y[0].id);
+	switch (currentTab) {
+		case 0:
+		
+		
+		
+		
+		
+		
+		
+			switch (parseInt(y[0].id)) {
+				case 0:
+					z[0].getElementsByClassName("caption")[0].innerHTML = "fuck";
+					break;
+				case 1:
+					z[0].getElementsByClassName("caption")[0].innerHTML = "your";
+					break;
+				case 2:
+					z[0].getElementsByClassName("caption")[0].innerHTML = "fucking";
+					break;
+				case 3:
+					z[0].getElementsByClassName("caption")[0].innerHTML = "ass";
+					break;
+			}
+			break;
+		case 1:
 
+			break;
+		case 2:
 
+			break;
+		case 3:
 
+			break;
+		
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
+}
 
 </script>
 
