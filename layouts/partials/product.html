@@ -55,7 +55,7 @@
         <div class="selectable" id="suitFitting">
 					{{ range $index, $element := .Site.Params.suits.fittingLining }}
 					<div class="small-container">
-          	<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
+						<img id="{{$index}}" class="image productList" src=" {{$element.image | relURL }}" alt=" {{ $element.alt }} ">
 						<p>{{$element.text}}</p>
 					</div>
 					{{ end }}
@@ -139,7 +139,6 @@
 </div>
 
 <script>
-
 // Get the modal
 var modal = document.getElementById('productModal');
 
@@ -285,7 +284,20 @@ function fixStepIndicator(n) {
 $(function() {
   var productSelectedList = {};
   $(".selectable img").click(function() {
-    $(this).addClass("ui-selected").siblings().removeClass("ui-selected");
+		// var x = $(".ui-selected");
+		// for (var i = 0; i < x.length; i++) {
+		// 	x[i].removeClass('ui-selected');
+		// }
+		// $(this).addClass("ui-selected");
+    // $(this).addClass("ui-selected").siblings().removeClass("ui-selected");
+		// $(this).getElementsByClassName('image').addClass("ui-selected").siblings().removeClass("ui-selected");
+		var x, y;
+		x = $(this)[0].parentNode.parentNode;
+		y = $(x).find(".ui-selected");
+		for (var i = 0; i < y.length; i++) {
+			$(y[i]).removeClass("ui-selected");
+		}
+		$(this).addClass("ui-selected");
     if ($(this).hasClass("ui-selected")) {
       var x = document.getElementsByClassName('ui-selected');
       var y = document.getElementsByClassName('img-selected');
@@ -296,39 +308,39 @@ $(function() {
 			}
       console.log("List");
       console.log(productSelectedList);
-			textSwitcher();
-			console.log(currentTab);
+			// textSwitcher();
+			console.log("currentTab " + currentTab);
     };
   });
 });
 
-function textSwitcher() {
-	// this function switches the text inside of caption divs based on which image clicked on
-	var x, y;
-	x = document.getElementsByClassName('tab');
-	y = x[currentTab].getElementsByClassName('ui-selected');
-	switch (y.length > 0) {
-		case currentTab = 0:
-			switch (y.length > 0) {
-				case y.id = 0:
-					y[0].nextSibling.innerHTML = "testing1";
-					break;
-				default:
-
-			}
-			break;
-		case currentTab = 1:
-
-			break;
-		case currentTab = 2:
-
-			break;
-		case currentTab = 3:
-
-			break;
-		default:
-
-	}
-}
-
-</script>
+// function textSwitcher() {
+// 	// this function switches the text inside of caption divs based on which image clicked on
+// 	var x, y;
+// 	x = document.getElementsByClassName('tab');
+// 	y = x[currentTab].getElementsByClassName('ui-selected');
+// 	switch (y.length > 0) {
+// 		case currentTab = 0:
+// 			switch (y.length > 0) {
+// 				case y.id = 0:
+// 					y[0].nextSibling.innerHTML = "testing1";
+// 					break;
+// 				default:
+//
+// 			}
+// 			break;
+// 		case currentTab = 1:
+//
+// 			break;
+// 		case currentTab = 2:
+//
+// 			break;
+// 		case currentTab = 3:
+//
+// 			break;
+// 		default:
+//
+// 	}
+// }
+//
+// </script>

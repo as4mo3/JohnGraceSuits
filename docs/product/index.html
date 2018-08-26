@@ -170,22 +170,22 @@ if (!doNotTrack) {
         <div class="selectable" id="suitFitting">
 					
 					<div class="small-container">
-          	<img id="0" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-1.png" alt=" Suit ">
+						<img id="0" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-1.png" alt=" Suit ">
 						<p>placeholder caption text 1</p>
 					</div>
 					
 					<div class="small-container">
-          	<img id="1" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-2.jpg" alt=" Suit ">
+						<img id="1" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-2.jpg" alt=" Suit ">
 						<p>placeholder caption text 2</p>
 					</div>
 					
 					<div class="small-container">
-          	<img id="2" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-3.jpg" alt=" Suit ">
+						<img id="2" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-3.jpg" alt=" Suit ">
 						<p>placeholder caption text 3</p>
 					</div>
 					
 					<div class="small-container">
-          	<img id="3" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-4.jpg" alt=" Suit ">
+						<img id="3" class="image productList" src=" /JohnGraceSuits/images/showcase/showcase-4.jpg" alt=" Suit ">
 						<p>placeholder caption text 4</p>
 					</div>
 					
@@ -328,7 +328,6 @@ if (!doNotTrack) {
 </div>
 
 <script>
-
 
 var modal = document.getElementById('productModal');
 
@@ -474,7 +473,20 @@ function fixStepIndicator(n) {
 $(function() {
   var productSelectedList = {};
   $(".selectable img").click(function() {
-    $(this).addClass("ui-selected").siblings().removeClass("ui-selected");
+		
+		
+		
+		
+		
+    
+		
+		var x, y;
+		x = $(this)[0].parentNode.parentNode;
+		y = $(x).find(".ui-selected");
+		for (var i = 0; i < y.length; i++) {
+			$(y[i]).removeClass("ui-selected");
+		}
+		$(this).addClass("ui-selected");
     if ($(this).hasClass("ui-selected")) {
       var x = document.getElementsByClassName('ui-selected');
       var y = document.getElementsByClassName('img-selected');
@@ -485,40 +497,40 @@ $(function() {
 			}
       console.log("List");
       console.log(productSelectedList);
-			textSwitcher();
-			console.log(currentTab);
+			
+			console.log("currentTab " + currentTab);
     };
   });
 });
 
-function textSwitcher() {
-	
-	var x, y;
-	x = document.getElementsByClassName('tab');
-	y = x[currentTab].getElementsByClassName('ui-selected');
-	switch (y.length > 0) {
-		case currentTab = 0:
-			switch (y.length > 0) {
-				case y.id = 0:
-					y[0].nextSibling.innerHTML = "testing1";
-					break;
-				default:
 
-			}
-			break;
-		case currentTab = 1:
 
-			break;
-		case currentTab = 2:
 
-			break;
-		case currentTab = 3:
 
-			break;
-		default:
 
-	}
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </script>
 
