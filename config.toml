@@ -184,21 +184,261 @@ googleAnalytics = "UA-122955127-1"
       image = "images/showcase/showcase-4.jpg"
       alt = "Suit"
     [[params.suits.fittingLining]]
-      image = "images/showcase/showcase-1.png"
-      alt = "Suit"
-      text = "placeholder caption text 1"
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/03/slim-fit-final.jpg"
+      alt = "Slim Fit"
+      text = "Slim Fit"
     [[params.suits.fittingLining]]
-      image = "images/showcase/showcase-2.jpg"
-      alt = "Suit"
-      text = "placeholder caption text 2"
-    [[params.suits.fittingLining]]
-      image = "images/showcase/showcase-3.jpg"
-      alt = "Suit"
-      text = "placeholder caption text 3"
-    [[params.suits.fittingLining]]
-      image = "images/showcase/showcase-4.jpg"
-      alt = "Suit"
-      text = "placeholder caption text 4"
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/03/regular-fit-final.jpg"
+      alt = "Regular Fit"
+      text = "Regular Fit"
+    [[params.suits.construction]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/fused.jpg"
+      alt = "Fused Jacket"
+      text = "Fused Jacket"
+    [[params.suits.construction]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/half-canvas.jpg"
+      alt = "Half-Canvas Jacket"
+      text = "Half-Canvas Jacket"
+    [[params.suits.construction]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/full-canvas.jpg"
+      alt = "Full-Canvas Jacket"
+      text = "Full-Canvas Jacket"
+    [[params.suits.lining]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/04/full-lining.jpg"
+      alt = "Full Lining"
+      text = "Full Lining"
+    [[params.suits.lining]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/04/half-lining.jpg"
+      alt = "Half Lining"
+      text = "Half Lining"
+    [[params.suits.lining]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/04/quarter-lining-1.jpg"
+      alt = "Quarter lining"
+      text = "Quarter lining"
+    [[params.suits.liningColor]]
+      image = "https://www.editsuits.com/wp-content/uploads/2016/06/FLL621-003.jpg"
+      alt = "Cream"
+      text = "Cream"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/04/FLLYKE819-960.jpg"
+      alt = "Navy"
+      text = "Navy"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/04/FLLYK1780-139.jpg"
+      alt = "Burgundy"
+      text = "Burgundy"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLLF502-213.jpg"
+      alt = "Pink"
+      text = "Pink"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/04/FLL622-BK.jpg"
+      alt = "Black"
+      text = "Black"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLLDL014.jpg"
+      alt = "Light Blue Paisley"
+      text = "Light Blue Paisley"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLLDL031.jpg"
+      alt = "Park Paisley"
+      text = "Park Paisley"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLL0388-810.jpg"
+      alt = "Grey Diamonds"
+      text = "Grey Diamonds"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLL7142-5.jpg"
+      alt = "Blue Check"
+      text = "Blue Check"
+    [[params.suits.liningColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/06/FLL86742-1.jpg"
+      alt = "Purple Dots"
+      text = "Purple Dots"
+    [[params.suits.jacketFront]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/156.jpg"
+      alt = "Single Breasted - One Button"
+      text = "Single Breasted - One Button"
+    [[params.suits.jacketFront]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/157.jpg"
+      alt = "Single Breasted - Two Buttons"
+      text = "Single Breasted - Two Buttons"
+    [[params.suits.jacketFront]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/158.jpg"
+      alt = "Double Breasted - Six Buttons"
+      text = "Double Breasted - Six Buttons"
+    [[params.suits.jacketBottom]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/front-opening-normal-2.jpg"
+      alt = "Regular Front"
+      text = "Regular Front"
+    [[params.suits.jacketBottom]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/front-opening-less-rounded-2.jpg"
+      alt = "Less Rounded Front"
+      text = "Less Rounded Front"
+    [[params.suits.lapel]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/160.jpg"
+      alt = "Notched Lapel - Slim (6.4cm)"
+      text = "Notched Lapel - Slim (6.4cm)"
+    [[params.suits.lapel]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/159.jpg"
+      alt = "Notched Lapel - Regular (8.3cm)"
+      text = "Notched Lapel - Regular (8.3cm)"
+    [[params.suits.lapel]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/161.jpg"
+      alt = "Peaked Lapel - Regular (7.3cm)"
+      text = "Peaked Lapel - Regular (7.3cm)"
+    [[params.suits.lapel]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2016/03/Wide-peak-lapel.jpg"
+      alt = "Peaked Lapel - Wide (8.9cm)"
+      text = "Peaked Lapel - Wide (8.9cm)"
+    [[params.suits.picStitch]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/no-pic-stitch.jpg"
+      alt = "No Pic Stitch"
+      text = "No Pic Stitch"
+    [[params.suits.picStitch]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/pic-stitch.jpg"
+      alt = "Pic Stitch"
+      text = "Pic Stitch"
+    [[params.suits.jacketPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/162.jpg"
+      alt = "Flap Pockets - Regular"
+      text = "Flap Pockets - Regular"
+    [[params.suits.jacketPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/11/Flap-Pocket-with-ticket-pocket.jpg"
+      alt = "Flap Pockets - Regular, with Ticket Pocket"
+      text = "Flap Pockets - Regular, with Ticket Pocket"
+    [[params.suits.jacketPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/163.jpg"
+      alt = "Flap Pockets - Slanted"
+      text = "Flap Pockets - Slanted"
+    [[params.suits.jacketPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/11/Slanted-pocket-with-slanted-ticket-pocket.jpg"
+      alt = "Flap Pockets - Slanted, with Ticket Pocket"
+      text = "Flap Pockets - Slanted, with Ticket Pocket"
+    [[params.suits.jacketPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/164.jpg"
+      alt = "Jetted Pockets - Regular"
+      text = "Jetted Pockets - Regular"
+    [[params.suits.jacketPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/11/Jetted-Pocket-with-ticket-pocket.jpg"
+      alt = "Jetted Pockets - Regular, with Ticket Pocket"
+      text = "Jetted Pockets - Regular, with Ticket Pocket"
+    [[params.suits.jacketPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/165.jpg"
+      alt = "Patch Pockets"
+      text = "Patch Pockets"
+    [[params.suits.vents]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/170.jpg"
+      alt = "Side Vents"
+      text = "Side Vents"
+    [[params.suits.vents]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/169.jpg"
+      alt = "Center Vent"
+      text = "Center Vent"
+    [[params.suits.monogram]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/DSC_9506.jpg"
+      alt = "With Monogram"
+      text = "With Monogram"
+    [[params.suits.monogram]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/10/no-monogram.jpg"
+      alt = "Without Monogram"
+      text = "Without Monogram"
+    [[params.suits.monogramFont]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/Arial-White.jpg"
+      alt = "Sans Serif Font"
+      text = "Sans Serif Font"
+    [[params.suits.monogramFont]]
+      image = "https://www.editsuits.com//wp-content/uploads/2015/03/Calligraphy-White.jpg"
+      alt = "Calligraphy Font"
+      text = "Calligraphy Font"
+    [[params.suits.monogramFont]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/Script-White.jpg"
+      alt = "Script Font"
+      text = "Script Font"
+    [[params.suits.monogramFontColor]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/Arial-White.jpg"
+      alt = "White"
+      text = "White"
+    [[params.suits.monogramFontColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/03/Arial-Grey.jpg"
+      alt = "Grey"
+      text = "Grey"
+    [[params.suits.monogramFontColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/03/Arial-Burgundy.jpg"
+      alt = "Burgundy"
+      text = "Burgundy"
+    [[params.suits.monogramFontColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2014/03/Arial-Navy.jpg"
+      alt = "Navy"
+      text = "Navy"
+    [[params.suits.monogramFontColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/03/Arial-Silver.jpg"
+      alt = "Silver"
+      text = "Silver"
+    [[params.suits.monogramFontColor]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/03/Arial-Gold.jpg"
+      alt = "Gold"
+      text = "Gold"
+    [[params.suits.pantFront]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/205.jpg"
+      alt = "No Pleat"
+      text = "No Pleat"
+    [[params.suits.pantFront]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/206.jpg"
+      alt = "One Pleat"
+      text = "One Pleat"
+    [[params.suits.outerWaistband]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/03/Belt-loop.jpg"
+      alt = "Belt Loops"
+      text = "Belt Loops"
+    [[params.suits.outerWaistband]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2015/03/Side-adjusters.jpg"
+      alt = "Side Adjusters"
+      text = "Side Adjusters"
+    [[params.suits.innerWaistband]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/04/Standard-waistband.jpg"
+      alt = "Standard Waistband"
+      text = "Standard Waistband"
+    [[params.suits.innerWaistband]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/04/Suspender-buttons.jpg"
+      alt = "Suspender Buttons Waistband"
+      text = "Suspender Buttons Waistband"
+    [[params.suits.pantSidePockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/207.jpg"
+      alt = "Vertical Pockets"
+      text = "Vertical Pockets"
+    [[params.suits.pantSidePockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/208.jpg"
+      alt = "Slanted Pockets"
+      text = "Slanted Pockets"
+    [[params.suits.pantBackPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/211.jpg"
+      alt = "Right Pocket With Button"
+      text = "Right Pocket With Button"
+    [[params.suits.pantBackPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/right-back-pocket-no-button.jpg"
+      alt = "Right Pocket Without Button"
+      text = "Right Pocket Without Button"
+    [[params.suits.pantBackPockets]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/212.jpg"
+      alt = "Two Pockets With Buttons"
+      text = "Two Pockets With Buttons"
+    [[params.suits.pantBackPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/two-back-pockets-no-buttons.jpg"
+      alt = "Two Pockets Without Buttons"
+      text = "Two Pockets Without Buttons"
+    [[params.suits.pantBackPockets]]
+      image = "https://editsuits-ypne1uvwbsy.netdna-ssl.com/wp-content/uploads/2017/06/no-back-pockets.jpg"
+      alt = "No Pockets"
+      text = "No Pockets"
+    [[params.suits.pantHem]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/213.jpg"
+      alt = "Without Cuff"
+      text = "Without Cuff"
+    [[params.suits.pantHem]]
+      image = "https://www.editsuits.com//wp-content/uploads/2014/03/214.jpg"
+      alt = "With Cuff"
+      text = "With Cuff"
 
 
 	[params.blog]
